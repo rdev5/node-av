@@ -21,3 +21,9 @@ Search for verse by reference using **ref.js**:
 $ ./ref.js 2 tim 3:16
 2 Timothy 3:16 All scripture [is] given by inspiration of God, and [is] profitable for doctrine, for reproof, for correction, for instruction in righteousness:
 ````
+
+## Useful Resources
+1. [*An Understandable History of the Bible* by Samuel C. Gipp, Th. D.](http://samgipp.com/historybook/)
+2. [*What's the Big Deal About the KJV?*](http://bigdealkjv.com/)
+3. [MySQL download of the *King James Bible: Pure Cambridge Edition*](http://www.bibleprotector.com/)
+4. [*American Dictionary of the English Language* by Noah Webster (1828)](http://webstersdictionary1828.com/)
