@@ -6,7 +6,7 @@ A series of useful command line utilities for searching the Authorized Version o
 ## Getting Started
 
 1. Download a copy of the *King James Bible: Pure Cambridge Edition: Fruit MySQL Database File* from http://www.bibleprotector.com/ and import into your local MySQL server.
-2. Use the included `mysql2sqlite.sh` shell script to convert the `kjv` database to SQLite and save into the `database` folder.
+2. Use the included `mysql2sqlite.sh` shell script to convert the `kjv` database to SQLite and save as `authorized_kjv.sqlite` into the `database` folder.
 3. Run `chmod +x` on \*.js files (see *Usage* below) from within the project's root directory.
 
 ### Usage
