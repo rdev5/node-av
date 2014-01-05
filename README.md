@@ -1,7 +1,7 @@
 # node-av
 > Based on the Pure Cambridge Edition
 
-A series of useful command line utilities for searching the Authorized Version of the King James Bible. 
+A series of useful command line utilities for searching and studying the Authorized Version of the King James Bible.
 
 ## Getting Started
 
