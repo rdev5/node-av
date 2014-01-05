@@ -5,5 +5,5 @@
    "dependencies": {
       "sqlite3": "~2.1.19"
    },
-   "author": "developer"
+   "author": "Matt Borja"
 }
