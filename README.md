@@ -16,26 +16,32 @@ $ ./search.js shall call his name Immanuel
 Isaiah 7:14 Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.
 ````
 
-Search for verse by reference using **ref.js**:
+Search for verse by reference using **ref.js** (currently does not support comma separated references; only semi-colons):
 ````
-$ ./ref.js 'gen 1:1-3; john 1:1-14'
-Genesis 1:1 In the beginning God created the heaven and the earth.
-Genesis 1:2 And the earth was without form, and void; and darkness [was] upon the face of the deep. And the Spirit of God moved upon the face of the waters.
-Genesis 1:3 And God said, Let there be light: and there was light.
-John 1:1 In the beginning was the Word, and the Word was with God, and the Word was God.
-John 1:2 The same was in the beginning with God.
-John 1:3 All things were made by him; and without him was not any thing made that was made.
-John 1:4 In him was life; and the life was the light of men.
-John 1:5 And the light shineth in darkness; and the darkness comprehended it not.
-John 1:6 There was a man sent from God, whose name [was] John.
-John 1:7 The same came for a witness, to bear witness of the Light, that all [men] through him might believe.
-John 1:8 He was not that Light, but [was sent] to bear witness of that Light.
-John 1:9 [That] was the true Light, which lighteth every man that cometh into the world.
-John 1:10 He was in the world, and the world was made by him, and the world knew him not.
-John 1:11 He came unto his own, and his own received him not.
+$ ./ref.js 'Romans 5:12; Romans 3:23; Romans 6:23; John 3:16; 1 John 2:2; 1 John 4:10; Acts 16:31; John 1:12; John 3:18; Romans 5:18-21; Romans 10:4-13'
 John 1:12 But as many as received him, to them gave he power to become the sons of God, [even] to them that believe on his name:
-John 1:13 Which were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.
-John 1:14 And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.
+John 3:16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+John 3:18 He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.
+Acts 16:31 And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house.
+Romans 3:23 For all have sinned, and come short of the glory of God;
+Romans 5:12 Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned:
+Romans 5:18 Therefore as by the offence of one [judgment came] upon all men to condemnation; even so by the righteousness of one [the free gift came] upon all men unto justification of life.
+Romans 5:19 For as by one man's disobedience many were made sinners, so by the obedience of one shall many be made righteous.
+Romans 5:20 Moreover the law entered, that the offence might abound. But where sin abounded, grace did much more abound:
+Romans 5:21 That as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord.
+Romans 6:23 For the wages of sin [is] death; but the gift of God [is] eternal life through Jesus Christ our Lord.
+Romans 10:4 For Christ [is] the end of the law for righteousness to every one that believeth.
+Romans 10:5 For Moses describeth the righteousness which is of the law, That the man which doeth those things shall live by them.
+Romans 10:6 But the righteousness which is of faith speaketh on this wise, Say not in thine heart, Who shall ascend into heaven? (that is, to bring Christ down [from above]:)
+Romans 10:7 Or, Who shall descend into the deep? (that is, to bring up Christ again from the dead.)
+Romans 10:8 But what saith it? The word is nigh thee, [even] in thy mouth, and in thy heart: that is, the word of faith, which we preach;
+Romans 10:9 That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved.
+Romans 10:10 For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation.
+Romans 10:11 For the scripture saith, Whosoever believeth on him shall not be ashamed.
+Romans 10:12 For there is no difference between the Jew and the Greek: for the same Lord over all is rich unto all that call upon him.
+Romans 10:13 For whosoever shall call upon the name of the Lord shall be saved.
+1 John 2:2 And he is the propitiation for our sins: and not for ours only, but also for [the sins of] the whole world.
+1 John 4:10 Herein is love, not that we loved God, but that he loved us, and sent his Son [to be] the propitiation for our sins.
 ````
 
 ## Useful Resources
