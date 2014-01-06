@@ -1,6 +1,6 @@
 {
    "name": "node-av",
-   "description": "A series of useful command line utilities for searching the Authorized Version of the King James Bible. Based on the Pure Cambridge Edition.",
+   "description": "A series of useful command line utilities for searching and studying the Authorized Version (1611).",
    "version": "0.0.1",
    "dependencies": {
       "sqlite3": "~2.1.19"
