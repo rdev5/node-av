@@ -6,9 +6,9 @@
 As a web application developer and technology guru, I'm always looking for ways to optimize my work efficiency. This set of tools is a sort of "concept project" which I hope to be able to articulate in this direction for Bible studying by:
 * Eliminating time spent navigating paginated and ad ridden Bible search websites
 * Eliminating time spent waiting for software to load, licensing fees, software updates, and other commercial hindrances
-* Eliminating excessive time spent reformatting copy text by implementing customizable search result format (e.g. --text-only, --verses-only, etc)
-* Partnering with one or more developers with a copy of the unabridged Noah Webster's 1828 American Dictionary of the English Language to provide faster terminology lookups
-* Providing any additional auxiliary functionality that would prove useful to Bible studying over an extended period time (e.g. --word-count, etc)
+* Eliminating excessive time spent reformatting copy text by implementing customizable search results
+* Partnering with a reliable source serving the unabridged Noah Webster's 1828 American Dictionary of the English Language
+* Providing any additional auxiliary functionality that would prove useful to Bible studying over an extended period time
 
 ## Platforms
 Currently only being developed and tested in OS X. Should work on most other platforms (Windows, Linux, etc) with Node.js and `npm` properly installed with little effort.
@@ -81,7 +81,7 @@ Romans 10:13 For whosoever shall call upon the name of the Lord shall be saved.
 ````
 
 ## Feedback, Suggestions, Bug Reports
-This project is designed to grow over time with increased usage. If you would like to make a feature request, suggestion, leave feedback, or report a bug, please [Open a new issue](https://github.com/rdev5/node-av/issues/new) and add an appropriate label to your inquiry (e.g. bug, enhancement, question, etc).
+This project is designed to grow over time with increased usage. If you would like to make a feature request, suggestion, leave feedback, or report a bug, please [open a new issue](https://github.com/rdev5/node-av/issues/new) and add an appropriate label to your inquiry (e.g. bug, enhancement, question, etc).
 
 ## Useful Resources
 1. [*An Understandable History of the Bible* by Samuel C. Gipp, Th. D.](http://samgipp.com/historybook/)
