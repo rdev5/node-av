@@ -1,18 +1,40 @@
 # node-av
-> Based on the Pure Cambridge Edition
+> A series of useful command line utilities for searching and studying the Authorized Version of the King James Bible. Based on the Pure Cambridge Edition.
 
-A series of useful command line utilities for searching and studying the Authorized Version of the King James Bible.
+As a web application developer and technology guru, I'm always looking for ways to optimize my work efficiency. This set of tools is a sort of "concept project" 
+
+## Platforms
+Currently only being developed and tested in OS X. Should work on most other platforms (Windows, Linux, etc) with Node.js and `npm` properly installed with little effort.
 
 ## Getting Started
+To install, run the following commands from Terminal:
+````
+$ git clone https://github.com/rdev5/node-av/
+$ cd node-av
+$ npm install
+````
 
-1. Download a copy of the *King James Bible: Pure Cambridge Edition: Fruit MySQL Database File* from http://www.bibleprotector.com/ and import into your local MySQL server.
-2. Use the included `mysql2sqlite.sh` shell script to convert the `kjv` database to SQLite and save as `authorized_kjv.sqlite` into the `database` folder.
-3. Run `chmod +x` on \*.js files (see *Usage* below) from within the project's root directory.
+Scripts may be run as follows:
+````
+$ cd node-av
+$ node search.js ...
+$ node ref.js ...
+````
+
+Alternatively, you may `chmod a+x` each *.js script and run them without specifying the node executable as follows:
+````
+$ cd node-av
+$ chmod a+x *.js
+$ ./search.js ...
+$ ./ref.js ...
+````
 
 ### Usage
+Assuming [node.js](http://nodejs.org/download/) has already been installed on your system, the following examples show how to use each script.
+
 Search for verses containing words using **search.js**:
 ````
-$ ./search.js forgiveness
+$ node search.js forgiveness
 Psalms 130:4 But [there is] forgiveness with thee, that thou mayest be feared.
 Daniel 9:9 To the Lord our God [belong] mercies and forgivenesses, though we have rebelled against him;
 Mark 3:29 But he that shall blaspheme against the Holy Ghost hath never forgiveness, but is in danger of eternal damnation:
@@ -25,7 +47,7 @@ Colossians 1:14 In whom we have redemption through his blood, [even] the forgive
 
 Search for verse by reference using **ref.js** (currently does not support comma separated references; only semi-colons):
 ````
-$ ./ref.js 'Romans 5:12; Romans 3:23; Romans 6:23; John 3:16; 1 John 2:2; 1 John 4:10; Acts 16:31; John 1:12; John 3:18; Romans 5:18-21; Romans 10:4-13'
+$ node ref.js 'Romans 5:12; Romans 3:23; Romans 6:23; John 3:16; 1 John 2:2; 1 John 4:10; Acts 16:31; John 1:12; John 3:18; Romans 5:18-21; Romans 10:4-13'
 John 1:12 But as many as received him, to them gave he power to become the sons of God, [even] to them that believe on his name:
 John 3:16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 John 3:18 He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.
@@ -50,6 +72,9 @@ Romans 10:13 For whosoever shall call upon the name of the Lord shall be saved.
 1 John 2:2 And he is the propitiation for our sins: and not for ours only, but also for [the sins of] the whole world.
 1 John 4:10 Herein is love, not that we loved God, but that he loved us, and sent his Son [to be] the propitiation for our sins.
 ````
+
+## Feedback, Suggestions, Bug Reports
+This project is designed to grow over time with increased usage. If you would like to make a feature request, suggestion, leave feedback, or report a bug, please [Open a new issue](https://github.com/rdev5/node-av/issues/new) and add an appropriate label to your inquiry (e.g. bug, enhancement, question, etc).
 
 ## Useful Resources
 1. [*An Understandable History of the Bible* by Samuel C. Gipp, Th. D.](http://samgipp.com/historybook/)
