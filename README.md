@@ -12,8 +12,15 @@ A series of useful command line utilities for searching and studying the Authori
 ### Usage
 Search for verses containing words using **search.js**:
 ````
-$ ./search.js shall call his name Immanuel
-Isaiah 7:14 Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.
+$ ./search.js forgiveness
+Psalms 130:4 But [there is] forgiveness with thee, that thou mayest be feared.
+Daniel 9:9 To the Lord our God [belong] mercies and forgivenesses, though we have rebelled against him;
+Mark 3:29 But he that shall blaspheme against the Holy Ghost hath never forgiveness, but is in danger of eternal damnation:
+Acts 5:31 Him hath God exalted with his right hand [to be] a Prince and a Saviour, for to give repentance to Israel, and forgiveness of sins.
+Acts 13:38 Be it known unto you therefore, men [and] brethren, that through this man is preached unto you the forgiveness of sins:
+Acts 26:18 To open their eyes, [and] to turn [them] from darkness to light, and [from] the power of Satan unto God, that they may receive forgiveness of sins, and inheritance among them which are sanctified by faith that is in me.
+Ephesians 1:7 In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;
+Colossians 1:14 In whom we have redemption through his blood, [even] the forgiveness of sins:
 ````
 
 Search for verse by reference using **ref.js** (currently does not support comma separated references; only semi-colons):
