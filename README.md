@@ -5,8 +5,9 @@
 
 As a web application developer and technology guru, I'm always looking for ways to optimize my work efficiency. This set of tools is a sort of "concept project" which I hope to be able to articulate in this direction for Bible studying by:
 * Eliminating time spent navigating paginated and ad ridden Bible search websites
-* Partnering with one or more developers with a copy of the unabridged Noah Webster's 1828 American Dictionary of the English Language
+* Eliminating time spent waiting for software to load, licensing fees, software updates, and other commercial hindrances
 * Eliminating excessive time spent reformatting copy text by implementing customizable search result format (e.g. --text-only, --verses-only, etc)
+* Partnering with one or more developers with a copy of the unabridged Noah Webster's 1828 American Dictionary of the English Language to provide faster terminology lookups
 * Providing any additional auxiliary functionality that would prove useful to Bible studying over an extended period time (e.g. --word-count, etc)
 
 ## Platforms
