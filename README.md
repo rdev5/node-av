@@ -1,5 +1,7 @@
 # node-av
-> A series of useful command line utilities for searching and studying the Authorized Version of the King James Bible. Based on the Pure Cambridge Edition.
+> A series of useful command line utilities for searching and studying the Authorized Version (1611).
+
+> Based on the Pure Cambridge Edition of the King James Bible.
 
 As a web application developer and technology guru, I'm always looking for ways to optimize my work efficiency. This set of tools is a sort of "concept project" which I hope to be able to articulate in this direction for Bible studying by:
 * Eliminating time spent navigating paginated and ad ridden Bible search websites
